@@ -1,0 +1,9 @@
+[project]
+name = "eventbot"
+version = "0.1.0"
+description = "Telegram-бот с IT-конференциями, митапами и хакатонами в СПб и Москве"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
